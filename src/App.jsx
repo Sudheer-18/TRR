@@ -7,7 +7,7 @@ function App() {
   const [resume, setResume] = useState(null);
 
   useEffect(() => {
-    axios.get('http://localhost:5001/view')
+    axios.get('https://trf-1-1sz7.onrender.com/view')
       .then(res => {
         setResume(res.data.data || res.data);
       })
