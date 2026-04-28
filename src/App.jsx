@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 import './App.css';
-import ProfileImg from './assets/profile.jpg'; // rename image simple ga petti use chey
+import ProfileImg from './assets/WhatsApp Image 2026-04-28 at 12.21.07 PM.jpeg'; // rename image simple ga petti use chey
 
 function App() {
   const [resume, setResume] = useState(null);
